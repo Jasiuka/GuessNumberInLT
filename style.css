@@ -134,3 +134,100 @@ body{
     left: 28rem;
     font-size: 2rem;
 }
+
+
+#scoreboard {
+    position: relative;
+    bottom: 25rem;
+    left: 10rem;
+    width: 15rem;
+    height: 10rem;
+}
+
+#scoreboard-label {
+    position: absolute;
+    top: 38.5rem;
+    left: 20rem;
+    width: 15rem;
+    height: 10rem;
+}
+
+
+.btn-choice {
+    /* display:none; */
+    background-color: black;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300%;
+    height: 300%;
+    backdrop-filter: blur(3px);
+}
+
+.window {
+position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+}
+
+#label {
+    position: relative;
+    top: -3rem;
+    font-size: 2rem;
+}
+
+#name-input {
+    position: relative;
+    right: 20rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+#btn-ok {
+    position: relative;
+    position: relative;
+    right: 20rem;
+    width: 5rem;
+}
+
+.lang-btn {
+    position: relative;
+    background-color: transparent;
+    width: 2rem;
+    height: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 65rem;
+    left: 25rem;
+    
+    
+}
+
+#lt-btn {
+    background-image: url('lithuania.png');
+    background-size: cover;
+}
+
+#en-btn {
+    background-image: url('united-kingdom.png');
+    background-size: cover;
+}
